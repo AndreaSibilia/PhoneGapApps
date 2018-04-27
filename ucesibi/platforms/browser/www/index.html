@@ -51,7 +51,7 @@
 			url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
 		}
 		if (layername == "busstop") {
-			url = "http://developer.cege.ucl.ac.uk:31079/ucesibi/www/busstops.geojson"
+			url = "busstops.geojson"
 		}
 		client.open('GET',url);
 		client.onreadystatechange = dataResponse;
