@@ -12,7 +12,7 @@
 
 	<!--the following CSS is used to set the size of the map-->
 	<style type="text/css">
-		#mapid{height:250px;}
+		#mapid{width: 80%; height:80%; position: relative;}
 	</style>
 	
 	<script>
@@ -95,7 +95,7 @@
 <body>
 
 	<!--the mapid div will hold the map-->
-	<div id="mapid" style="width:1000px; height:600px;"></div>
+	<div id="mapid" style="width: window.screen.width; height: window.screen.height;"></div>
 	<button id="loadData" name="loadData" onclick="loadEarthquakeData()">Click here to load earthquakes</button>
 	<button id="removeEarthquakeData" name="removeEarthquakeData" onclick="removeEarthquakeData()">Click here to remove earthquake data</button>
 	<button id="loadBusData" name="loadBusData" onclick="loadBusStops()">Click here to load bus stops</button>
